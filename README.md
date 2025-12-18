@@ -165,40 +165,6 @@ git stash branch features/stashed-files stash@{0}
 
 
 
+update the git here
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> ef17987 (Trying to get the changes from main branch to features/notes branch)
