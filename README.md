@@ -19,7 +19,9 @@ git status # To check the status of the git repo
 
 
 
+
 ### create a new branch 
+
 
 
 ```bash
@@ -32,6 +34,12 @@ git push -u origin main
 
 
 ```
+
+Ok lets say we created and made changes in the branch if we ever `-m or -u` before commiting or pushing to the remote
+
+we dont need to use `-u or -m` always we can directly use `git push/commit origin main`
+
+
 
 
 ```
