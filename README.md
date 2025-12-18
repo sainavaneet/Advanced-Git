@@ -65,3 +65,63 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 ```
+
+
+## Now i want to create a new branch with checkout 
+
+
+```
+
+git checkout -b features/notes
+
+# edit some files here 
+
+git add . 
+
+
+git commit -m "updated"
+
+
+git push origin -u features/notes
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
