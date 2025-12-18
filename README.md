@@ -19,7 +19,9 @@ git status # To check the status of the git repo
 
 
 
+
 ### create a new branch 
+
 
 
 ```bash
@@ -32,6 +34,12 @@ git push -u origin main
 
 
 ```
+
+Ok lets say we created and made changes in the branch if we ever `-m or -u` before commiting or pushing to the remote
+
+we dont need to use `-u or -m` always we can directly use `git push/commit origin main`
+
+
 
 
 ```
@@ -163,6 +171,38 @@ git stash branch features/stashed-files stash@{0}
 ```
 
 
+# Cherry-Pick 
 
 
-update the git here now i wanted to test the cherry pick abort method how it works
+So this is basically we can take specific commit from other branches and can modify into the current branch 
+
+```
+git cherry-pick [hash id] # hash id can be available by git log --oneline
+
+```
+
+Now lets say we cherry-pick it 
+
+and then 
+```
+git add . 
+
+git push origin -u main 
+
+
+```
+
+
+# Revert changes
+
+first lets check what all the changes that i had been to the current branch
+
+by using `git log --oneline`
+
+```
+git reset --hard origin/main
+
+```
+
+basically this brings the repo to one commit previously so what ever we had done the changes it will be gone 
+
