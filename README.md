@@ -86,6 +86,26 @@ git push origin -u features/notes
 
 ```
 
+
+## To See the list of branches that are available in local and remote 
+
+
+```
+git branch -a
+
+```
+
+## We can Delet branches 
+
+```
+
+git branch -D [branch name ] # this is for the branches that are not fully published or fully merged
+
+git branch -d [branch name ] this is for the general purpouse ( we can delete any branch like this)
+
+```
+
+
 ## Stash 
 
 stash is used to save changes temporory so that we can use them again or save them in any branch we wanted
