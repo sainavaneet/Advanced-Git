@@ -86,8 +86,65 @@ git push origin -u features/notes
 
 ```
 
+## Stash 
+
+stash is used to save changes temporory so that we can use them again or save them in any branch we wanted
+
+- stash is default only for the tracked files "basically commited or git added files"
 
 
+- Before pushing into the remote ( we can just stash them and then save them any where we wanted)
+
+main command is 
+```
+
+git stash 
+
+
+```
+TO save the stashed files to the repo 
+
+```
+
+git stash pop 
+
+```
+
+
+
+### Stash untracked files or not commited files
+
+```
+
+git stash -a
+
+```
+
+
+### Check the stashed list
+
+```
+
+git stash list
+
+
+
+# The output will be like this 
+
+stash@{0}: On features/notes :WIP: README update
+
+```
+
+
+### We can also publish stash as a new branch 
+
+
+```
+
+git stash branch features/stashed-files stash@{0}
+
+
+```
 
 
 
