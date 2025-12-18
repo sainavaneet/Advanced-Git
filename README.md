@@ -1,4 +1,4 @@
- # My repository
+# My repository
 
 
 ```bash
@@ -154,16 +154,7 @@ git stash list
 stash@{0}: On features/notes :WIP: README update
 
 ```
-
-
-- if we add the changes in the different branch the stashed will be still available for the orginal branch unless we add them in the same branch
-
-
-
-
 ### We can also publish stash as a new branch 
-
-
 ```
 
 git stash branch features/stashed-files stash@{0}
@@ -207,3 +198,7 @@ git stash branch features/stashed-files stash@{0}
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> ef17987 (Trying to get the changes from main branch to features/notes branch)
