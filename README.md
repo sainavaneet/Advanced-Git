@@ -156,6 +156,11 @@ stash@{0}: On features/notes :WIP: README update
 ```
 
 
+- if we add the changes in the different branch the stashed will be still available for the orginal branch unless we add them in the same branch
+
+
+
+
 ### We can also publish stash as a new branch 
 
 
