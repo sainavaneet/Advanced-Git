@@ -137,6 +137,9 @@ TO save the stashed files to the repo
 git stash pop 
 
 ```
+if we want to apply insted of pop the stash we can just use `git stash apply`
+
+
 
 
 
@@ -162,7 +165,11 @@ git stash list
 stash@{0}: On features/notes :WIP: README update
 
 ```
+if we want to apply particular stash we can use `git stash apply stash@{0}`
+
+
 ### We can also publish stash as a new branch 
+
 ```
 
 git stash branch features/stashed-files stash@{0}
