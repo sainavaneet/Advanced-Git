@@ -224,6 +224,7 @@ git reset --hard origin/main
 basically this brings the repo to one commit previously so what ever we had done the changes it will be gone 
 
 
+update the git here
 
 # Git `Tags`
 
@@ -250,6 +251,3 @@ git tag
 
 
 # Git rebase 
-
-
-
