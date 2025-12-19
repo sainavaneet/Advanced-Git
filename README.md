@@ -239,7 +239,17 @@ git tag -a v1.0 -m "Version 1"
 
 ```
 
+## We can Check all the git tags
 
+
+```
+
+git tag
+
+```
+
+
+# Git rebase 
 
 
 
