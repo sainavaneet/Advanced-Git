@@ -223,3 +223,6 @@ git reset --hard origin/main
 
 basically this brings the repo to one commit previously so what ever we had done the changes it will be gone 
 
+I want to learn the cherry pick
+
+
