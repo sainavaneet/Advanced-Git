@@ -77,6 +77,7 @@ Your branch is up to date with 'origin/main'.
 
 ## Now i want to create a new branch with checkout 
 
+	This is basically we do because we directly checkout to that particulary branch without doing `git checkout {branch name}`
 
 ```
 
@@ -132,6 +133,8 @@ git stash
 ```
 TO save the stashed files to the repo 
 
+
+- when we do this it will disappear from the stash history 
 ```
 
 git stash pop 
@@ -140,6 +143,13 @@ git stash pop
 if we want to apply insted of pop the stash we can just use `git stash apply`
 
 
+
+To make available in the stash history we use `git stash apply` insted of `pop`
+
+
+OR 
+
+We can apply particular stash history by using `git stash apply stash@{0}`
 
 
 
