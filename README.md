@@ -223,6 +223,23 @@ git reset --hard origin/main
 
 basically this brings the repo to one commit previously so what ever we had done the changes it will be gone 
 
-I want to learn the cherry pick
+
+
+# Git `Tags`
+
+
+Tags are basically to add versions for branch 
+
+
+we can create a tag by using 
+
+```
+
+git tag -a v1.0 -m "Version 1"
+
+```
+
+
+
 
 
