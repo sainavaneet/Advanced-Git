@@ -248,8 +248,39 @@ git tag
 
 ```
 
+# Git Merge
+
+
+Merge is basically that merges all the commits from the other branch to the current branch were ever we wanted the merge to be 
+
+
+```
+git merge {main} # this will bring all the commits from the main branch to the current branch that we are working on
+
+```
+
+### Merge conflicts 
+
+
+If we get any merge conflicts we need to manulally remove thoes confilct markers and edit them 
+
+the important thing is we need to add thoes files again by using `git add` otherwise the merge doesn't work.
+
+
+
 
 # Git rebase 
 
 
+Git rebase is basically used to rebase the entire commits from one branch to another branch
 
+lets say if we are working on different branch and want to get all the changes from the current branch to the main branch we basiclly do :
+
+```
+git rebase {main} # if we want our currrent changes to come to the main branch then we need to do this 
+
+```
+
+If there are any conflicts during the rebase we need to solve them manully and then add them again `git add`
+
+then if we can't push them to the git hub we should use `git push --force-with-lease`
