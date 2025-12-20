@@ -224,6 +224,7 @@ git reset --hard origin/main
 basically this brings the repo to one commit previously so what ever we had done the changes it will be gone 
 
 
+
 update the git here
 
 # Git `Tags`
@@ -251,3 +252,6 @@ git tag
 
 
 # Git rebase 
+
+update the git here now i wanted to test the cherry pick abort method how it works
+
