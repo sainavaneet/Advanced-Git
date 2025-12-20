@@ -1,1 +1,0 @@
-# Practicing the rebase command by using the git rebase command
